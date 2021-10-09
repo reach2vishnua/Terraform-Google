@@ -1,0 +1,4 @@
+#Ignoring TF State. .terraform  and Json Files
+*.tfstate
+*.json
+.terraform/
