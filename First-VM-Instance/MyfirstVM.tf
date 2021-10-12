@@ -4,7 +4,7 @@ provider "google" {
   region      = "asia-south1"
   zone        = "asia-south1-a"
 }
-
+## Virtual Machine
 resource "google_compute_instance" "vm_instance" {
   name         = "my-first-instance"
   machine_type = "f1-micro"
